@@ -1,0 +1,8 @@
+v: 0
+micros:
+  - name: code-server-free
+    src: .
+    engine: dockerfile
+    primary: true
+    public_routes:
+      - "/*"
